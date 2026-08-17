@@ -1,0 +1,23 @@
+git config --global user.name MarianaAlvesDantasDosSantos
+git config --global user.email claricealvessantos82@gmail.com
+
+Criando 
+npx create-expo-app@latest GMusic --template blank@57
+cd GMusic
+
+Executar
+npx expo start --android
+
+npx expo start --tunnel --android
+
+npx expo start --web
+
+Instalar para usar --web
+
+npx expo install react-dom react-native-web
+
+Bibliotecas
+npx expo install react-dom react-native-web @expo/metro-runtime
+npx expo install expo-audio expo-linear-gradient expo-splash-screen expo-status-bar
+npx expo install react-native-safe-area-context @react-native-community/slider
+npx expo install @expo/vector-icons expo-font
