@@ -14,7 +14,7 @@ import colors from '../theme/colors';
 
 export default function MusicPlayer() {
     const { width } = useWindowDimensions();
-    const [selectedIndex, setSelectedIndex] = useState();
+    const [selectedIndex, setSelectedIndex] = useState(0);
     
     const currentSong = songs[selectedIndex];
     const artworkSize = Math.min(width-40, 380);
